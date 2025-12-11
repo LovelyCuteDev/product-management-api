@@ -49,7 +49,7 @@ JWT_EXPIRES_IN=1d
 # Initial super admin user (for seeding)
 ADMIN_EMAIL=admin@example.com
 ADMIN_PASSWORD=ChangeMe123!
-ADMIN_NAME=Super Admin
+ADMIN_NAME=Admin Name
 ```
 
 Notes:
@@ -143,4 +143,3 @@ npm run test:cov
 ### 9. Common dev tips
 
 - If you change entities or add new tables, generate or create new TypeORM migrations and run `npm run db:migrate`.
-- Ensure the backend `PORT` and `VITE_APP_API_URL` used by the frontend are aligned (see frontend README).
